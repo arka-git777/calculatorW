@@ -145,7 +145,7 @@ namespace calculatorW
             {
                 char currentChar = text[i];
 
-                if (char.IsDigit(currentChar))
+                if ((int)currentChar >= 48 && (int)currentChar <= 57)
                     currentNum = currentNum * 10 + (currentChar - '0');
 
                 if (i == text.Length - 1 || currentChar == '+' || currentChar == '-' || currentChar == 'x' || currentChar == '/')
