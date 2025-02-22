@@ -297,6 +297,8 @@
             Controls.Add(btn3);
             Controls.Add(btn2);
             Controls.Add(btn1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
