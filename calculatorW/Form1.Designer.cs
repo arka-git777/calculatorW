@@ -54,7 +54,7 @@
             // 
             // btn1
             // 
-            btn1.Location = new Point(28, 313);
+            btn1.Location = new Point(12, 300);
             btn1.Name = "btn1";
             btn1.Size = new Size(59, 56);
             btn1.TabIndex = 0;
@@ -64,7 +64,7 @@
             // 
             // btn2
             // 
-            btn2.Location = new Point(93, 313);
+            btn2.Location = new Point(77, 300);
             btn2.Name = "btn2";
             btn2.Size = new Size(59, 56);
             btn2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // 
             // btn3
             // 
-            btn3.Location = new Point(158, 313);
+            btn3.Location = new Point(142, 300);
             btn3.Name = "btn3";
             btn3.Size = new Size(59, 56);
             btn3.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             // btn6
             // 
-            btn6.Location = new Point(158, 251);
+            btn6.Location = new Point(142, 238);
             btn6.Name = "btn6";
             btn6.Size = new Size(59, 56);
             btn6.TabIndex = 3;
@@ -94,7 +94,7 @@
             // 
             // btn5
             // 
-            btn5.Location = new Point(93, 251);
+            btn5.Location = new Point(77, 238);
             btn5.Name = "btn5";
             btn5.Size = new Size(59, 56);
             btn5.TabIndex = 4;
@@ -104,7 +104,7 @@
             // 
             // btn4
             // 
-            btn4.Location = new Point(28, 251);
+            btn4.Location = new Point(12, 238);
             btn4.Name = "btn4";
             btn4.Size = new Size(59, 56);
             btn4.TabIndex = 5;
@@ -114,7 +114,7 @@
             // 
             // btn9
             // 
-            btn9.Location = new Point(158, 189);
+            btn9.Location = new Point(142, 176);
             btn9.Name = "btn9";
             btn9.Size = new Size(59, 56);
             btn9.TabIndex = 6;
@@ -124,7 +124,7 @@
             // 
             // btn8
             // 
-            btn8.Location = new Point(93, 189);
+            btn8.Location = new Point(77, 176);
             btn8.Name = "btn8";
             btn8.Size = new Size(59, 56);
             btn8.TabIndex = 7;
@@ -134,7 +134,7 @@
             // 
             // btn7
             // 
-            btn7.Location = new Point(28, 189);
+            btn7.Location = new Point(12, 176);
             btn7.Name = "btn7";
             btn7.Size = new Size(59, 56);
             btn7.TabIndex = 8;
@@ -144,7 +144,7 @@
             // 
             // btn0
             // 
-            btn0.Location = new Point(93, 375);
+            btn0.Location = new Point(77, 362);
             btn0.Name = "btn0";
             btn0.Size = new Size(59, 56);
             btn0.TabIndex = 9;
@@ -154,7 +154,7 @@
             // 
             // btnPoint
             // 
-            btnPoint.Location = new Point(158, 375);
+            btnPoint.Location = new Point(142, 362);
             btnPoint.Name = "btnPoint";
             btnPoint.Size = new Size(59, 56);
             btnPoint.TabIndex = 10;
@@ -164,7 +164,7 @@
             // 
             // btnMultiply
             // 
-            btnMultiply.Location = new Point(223, 189);
+            btnMultiply.Location = new Point(207, 176);
             btnMultiply.Name = "btnMultiply";
             btnMultiply.Size = new Size(59, 56);
             btnMultiply.TabIndex = 11;
@@ -174,7 +174,7 @@
             // 
             // btnMinus
             // 
-            btnMinus.Location = new Point(223, 251);
+            btnMinus.Location = new Point(207, 238);
             btnMinus.Name = "btnMinus";
             btnMinus.Size = new Size(59, 56);
             btnMinus.TabIndex = 12;
@@ -184,7 +184,7 @@
             // 
             // btnPlus
             // 
-            btnPlus.Location = new Point(223, 313);
+            btnPlus.Location = new Point(207, 300);
             btnPlus.Name = "btnPlus";
             btnPlus.Size = new Size(59, 56);
             btnPlus.TabIndex = 13;
@@ -194,7 +194,7 @@
             // 
             // btnEqual
             // 
-            btnEqual.Location = new Point(223, 375);
+            btnEqual.Location = new Point(207, 362);
             btnEqual.Name = "btnEqual";
             btnEqual.Size = new Size(59, 56);
             btnEqual.TabIndex = 14;
@@ -204,7 +204,7 @@
             // 
             // btnDivide
             // 
-            btnDivide.Location = new Point(223, 127);
+            btnDivide.Location = new Point(207, 114);
             btnDivide.Name = "btnDivide";
             btnDivide.Size = new Size(59, 56);
             btnDivide.TabIndex = 15;
@@ -214,7 +214,7 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(158, 127);
+            btnDelete.Location = new Point(142, 114);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(59, 56);
             btnDelete.TabIndex = 17;
@@ -224,7 +224,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(28, 25);
+            textBox1.Location = new Point(12, 12);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
@@ -233,7 +233,7 @@
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(28, 375);
+            btnReset.Location = new Point(12, 362);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(59, 56);
             btnReset.TabIndex = 19;
@@ -245,14 +245,14 @@
             // 
             errorLabel.AutoSize = true;
             errorLabel.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            errorLabel.Location = new Point(28, 140);
+            errorLabel.Location = new Point(12, 127);
             errorLabel.Name = "errorLabel";
             errorLabel.Size = new Size(0, 25);
             errorLabel.TabIndex = 20;
             // 
             // textHistoryBox
             // 
-            textHistoryBox.Location = new Point(288, 25);
+            textHistoryBox.Location = new Point(272, 12);
             textHistoryBox.Multiline = true;
             textHistoryBox.Name = "textHistoryBox";
             textHistoryBox.ReadOnly = true;
@@ -262,7 +262,7 @@
             // btnSave
             // 
             btnSave.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSave.Location = new Point(28, 127);
+            btnSave.Location = new Point(12, 114);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(124, 56);
             btnSave.TabIndex = 22;
@@ -274,7 +274,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(497, 447);
+            ClientSize = new Size(487, 433);
             Controls.Add(btnSave);
             Controls.Add(textHistoryBox);
             Controls.Add(errorLabel);
